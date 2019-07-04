@@ -1,0 +1,8 @@
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\bin\Release\cdoc.exe.manifest
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\bin\Release\cdoc.application
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\bin\Release\cdoc.exe
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\bin\Release\cdoc.pdb
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\obj\x86\Release\cdoc.exe.manifest
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\obj\x86\Release\cdoc.application
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\obj\x86\Release\cdoc.exe
+D:\PROGRAMACAO\VISUAL STUDIO\cdoc\cdoc\obj\x86\Release\cdoc.pdb

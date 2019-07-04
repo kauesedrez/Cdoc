@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.IO;
+
+namespace cdoc
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.SetWindowSize(130, 50);
+            Principal p = new Principal();
+            p.ini();
+        }
+    }
+
+    class Principal : Object
+    {
+        Regex padrao = new Regex(@"/\*\*\*(.|\n)*?\*\*\*/", RegexOptions.None);
+        
+        Regex padraoTroca = new Regex(@"/\*\*\*|\*\*\*/", RegexOptions.None);
+
+        public void ini()
+        {
+
+            //carrega o arquivo
+            FileStream fs = new FileStream(@"D:\teste.cdoc", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            StreamReader sr = new StreamReader(fs);
+            string conteudo = sr.ReadToEnd();
+            sr.Close();
+            //-- fim função arquivo
+
+            Console.WriteLine("Teste de Expressões Regulares");
+
+            foreach (Match cdoc in padrao.Matches(conteudo))
+            {
+                string resultado = padraoTroca.Replace(cdoc.Value, "");
+                Console.WriteLine(resultado+"  \n\n\n");
+                //no primeiro teste tem que verificar se o arquivo começa com #cdoc
+
+            }
+
+            Console.WriteLine("\n\n\nPressione Enter para sair");
+            Console.ReadLine();
+        }
+    }
+
+}

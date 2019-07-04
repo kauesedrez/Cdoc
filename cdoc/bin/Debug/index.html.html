@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>what CDOC : index.html</title>
+<link rel='icon' type='image/png' href='images/cdoc-icon.png'/>
+    <script src='js/jquery.js'></script>
+    
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <script src='js/bootstrap.js'></script>
+    <link rel='stylesheet' href='highlight/styles/color-brewer.css'>
+    <script src='highlight/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+    
+    <style type='text/css'>
+    .myButton {
+        margin-left:20px;
+    }
+    pre{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border:0;
+    }
+    .noMargin {margin:0;padding:0;}
+    .btn, .btn-default{
+    font-family: Courier New;
+    font-size: 12px;
+    font-weight: bold;
+    color:#0000cc;
+    }
+    .tooltip-inner{
+    background-color: #ddd;
+    color: #444;
+    }
+    .noCode{
+    color:red;
+    }
+    .table2 {
+    font-size:11px;
+    color:#555;
+    margin:0;
+    }
+    .table3 {
+    font-size:11px;
+    color:#eee;
+ margin:0;
+
+    }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'></script>
+    <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class='container'>
+      <div class='page-header'>
+        <h1>#CDOC <small>Cedros Documenter </small></h1>
+      </div>
+      <div class='alert alert-success' role='alert'>index.html
+ <a href="javascript: window.location = 'index.html'">
+
+           <span title = 'Home' alt = 'Home' class='glyphicon glyphicon-home' style='font-size:20px;margin:10px;' aria-hidden='true'>
+</span></a>
+
+        <a href = 'javascript:void(0);' data-toggle='modal' data-target='#myModal'>
+
+        <span alt = 'Visualizar código puro' title='Visualizar código puro' class='glyphicon glyphicon-eye-open' style='font-size:20px;margin:10px;' aria-hidden='true'></span></a></div>
+<div class='panel panel-warning'><div class='panel-heading'><table class="table table-hover"><tr><td width='250px'>Inicio do Desenvolvimento</td><td> 20/01/2016</td></tr><tr><td width='250px'>Última Modificação</td><td> 20/01/2016</td></tr><tr><td width='250px'>Integrante do Projeto</td><td> MMO</td></tr><tr><td width='250px'>Título</td><td> Teste HTML</td></tr><tr><td width='250px'>Nome do Arquivo</td><td> testehtml</td></tr><tr><td width='250px'>Dependências para Funcionar</td><td>jquery ; overflow</td></tr><tr><td width='250px'>Descrição</td><td> Cria&#231;&#227;o da anima&#231;&#227;o essencial da engine do jogo, fazendo o mapa se moverBackground para o personagem poder se deslocar.</td></tr><tr><td width='250px'>Observações</td><td> https</td></tr><tr><td width='250px'>Versão</td><td> 1.0</td></tr></table></div><div class='panel-body'><pre><code></code></pre><div class='panel panel-primary noMargin'><div class='panel-heading'><h3> head</h3><table class="table table-condensed table3"><tr><td width='200px'>Nome</td><td> head</td></tr></table></div><div class='panel-body noMargin'><pre><code>&lt;div class=&#39;modal fade&#39; id=&#39;motor&#39; tabindex=&#39;-1&#39; role=&#39;dialog&#39; aria-labelledby=&#39;myModalLabel&#39;&gt;  &lt;div class=&#39;modal-dialog&#39; role=&#39;document&#39;&gt;    &lt;div class=&#39;modal-content&#39;&gt;      &lt;div class=&#39;modal-header&#39;&gt;        &lt;button type=&#39;button&#39; class=&#39;close&#39; data-dismiss=&#39;modal&#39; aria-label=&#39;Close&#39;&gt;&lt;span aria-hidden=&#39;true&#39;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;        &lt;h4 class=&#39;modal-title&#39; id=&#39;myModalLabel&#39;&gt;local()&lt;/h4&gt;      &lt;/div&gt;</code></pre></div></div><pre><code>&lt;div class=&#39;modal-body&#39;&gt;               &lt;pre&gt;&lt;code&gt;        function teste() {          alert(ola mundo);        }        var x=1;        var teste=true;        if(x&gt;2)teste=false;        &lt;/code&gt;&lt;/pre&gt;              &lt;table class=&#39;table table-condensed&#39;&gt;&lt;tr&gt;&lt;td&gt;Autor&lt;/td&gt;&lt;td width=&#39;80%&#39;&gt;Winetu Kaue Sedrez Bilhalva      &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Descri&#231;&#227;o&lt;/td&gt;&lt;td width=&#39;80%&#39;&gt; Faz o jogador enlouquecer      &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Data Inicial&lt;/td&gt;&lt;td width=&#39;80%&#39;&gt; 01/03/1990      &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;                &lt;/div&gt;      &lt;div class=&#39;modal-footer&#39;&gt;        &lt;button type=&#39;button&#39; class=&#39;btn btn-danger&#39; data-dismiss=&#39;modal&#39;&gt;Close&lt;/button&gt;        &lt;button type=&#39;button&#39; class=&#39;btn btn-info&#39; onClick=&#39;javascript:hyper(&#39;doc.html&#39;);void(0);&#39;&gt;Visualizar HyperCode do arquivo&lt;/button&gt;      &lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/div&gt;</code></pre></div></div> 
+<!-- Modal-->
+<div class='modal fade' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div class='modal-dialog' role='document' style='width:1000px'>
+    <div class='modal-content' style='width:1000px'>
+      <div class='modal-header' style='width:1000px'>
+        <button type = 'button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+        <h4 class='modal-title' id='myModalLabel'>index.html</h4>
+      </div>
+      <div class='modal-body'>
+        <pre><code>
+
+&lt;div class=&#39;modal fade&#39; id=&#39;motor&#39; tabindex=&#39;-1&#39; role=&#39;dialog&#39; aria-labelledby=&#39;myModalLabel&#39;&gt;  &lt;div class=&#39;modal-dialog&#39; role=&#39;document&#39;&gt;    &lt;div class=&#39;modal-content&#39;&gt;      &lt;div class=&#39;modal-header&#39;&gt;        &lt;button type=&#39;button&#39; class=&#39;close&#39; data-dismiss=&#39;modal&#39; aria-label=&#39;Close&#39;&gt;&lt;span aria-hidden=&#39;true&#39;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;        &lt;h4 class=&#39;modal-title&#39; id=&#39;myModalLabel&#39;&gt;local()&lt;/h4&gt;      &lt;/div&gt;           &lt;div class=&#39;modal-body&#39;&gt;               &lt;pre&gt;&lt;code&gt;        function teste() {          alert(ola mundo);        }        var x=1;        var teste=true;        if(x&gt;2)teste=false;        &lt;/code&gt;&lt;/pre&gt;              &lt;table class=&#39;table table-condensed&#39;&gt;&lt;tr&gt;&lt;td&gt;Autor&lt;/td&gt;&lt;td width=&#39;80%&#39;&gt;Winetu Kaue Sedrez Bilhalva      &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Descri&#231;&#227;o&lt;/td&gt;&lt;td width=&#39;80%&#39;&gt; Faz o jogador enlouquecer      &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Data Inicial&lt;/td&gt;&lt;td width=&#39;80%&#39;&gt; 01/03/1990      &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;                &lt;/div&gt;      &lt;div class=&#39;modal-footer&#39;&gt;        &lt;button type=&#39;button&#39; class=&#39;btn btn-danger&#39; data-dismiss=&#39;modal&#39;&gt;Close&lt;/button&gt;        &lt;button type=&#39;button&#39; class=&#39;btn btn-info&#39; onClick=&#39;javascript:hyper(&#39;doc.html&#39;);void(0);&#39;&gt;Visualizar HyperCode do arquivo&lt;/button&gt;      &lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/div&gt;
+        </code></pre>
+      </div>
+      <div class='modal-footer'>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body></html>

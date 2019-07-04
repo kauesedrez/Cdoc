@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2171D81A-1463-4EAE-A7C5-03436095A161}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cdoc</RootNamespace>
+    <AssemblyName>cdoc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\PROGRAMACAO\VISUAL STUDIO\cdoc\Executavel\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C14A3481FBAE0AD3115D6EFFA7C7CB1851595C01</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>cdoc_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\css\bootstrap-theme.css.map" />
+    <None Include="assets\css\bootstrap-theme.min.css.map" />
+    <None Include="assets\css\bootstrap.css.map" />
+    <None Include="assets\css\bootstrap.min.css.map" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="cdoc_TemporaryKey.pfx" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap-theme.css" />
+    <Content Include="assets\css\bootstrap-theme.min.css" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\highlight\highlight.pack.js" />
+    <Content Include="assets\highlight\styles\agate.css" />
+    <Content Include="assets\highlight\styles\androidstudio.css" />
+    <Content Include="assets\highlight\styles\arduino-light.css" />
+    <Content Include="assets\highlight\styles\arta.css" />
+    <Content Include="assets\highlight\styles\ascetic.css" />
+    <Content Include="assets\highlight\styles\atelier-cave-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-cave-light.css" />
+    <Content Include="assets\highlight\styles\atelier-dune-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-dune-light.css" />
+    <Content Include="assets\highlight\styles\atelier-estuary-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-estuary-light.css" />
+    <Content Include="assets\highlight\styles\atelier-forest-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-forest-light.css" />
+    <Content Include="assets\highlight\styles\atelier-heath-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-heath-light.css" />
+    <Content Include="assets\highlight\styles\atelier-lakeside-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-lakeside-light.css" />
+    <Content Include="assets\highlight\styles\atelier-plateau-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-plateau-light.css" />
+    <Content Include="assets\highlight\styles\atelier-savanna-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-savanna-light.css" />
+    <Content Include="assets\highlight\styles\atelier-seaside-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-seaside-light.css" />
+    <Content Include="assets\highlight\styles\atelier-sulphurpool-dark.css" />
+    <Content Include="assets\highlight\styles\atelier-sulphurpool-light.css" />
+    <Content Include="assets\highlight\styles\brown-paper.css" />
+    <Content Include="assets\highlight\styles\brown-papersq.png" />
+    <Content Include="assets\highlight\styles\codepen-embed.css" />
+    <Content Include="assets\highlight\styles\color-brewer.css" />
+    <Content Include="assets\highlight\styles\dark.css" />
+    <Content Include="assets\highlight\styles\darkula.css" />
+    <Content Include="assets\highlight\styles\default.css" />
+    <Content Include="assets\highlight\styles\docco.css" />
+    <Content Include="assets\highlight\styles\far.css" />
+    <Content Include="assets\highlight\styles\foundation.css" />
+    <Content Include="assets\highlight\styles\github-gist.css" />
+    <Content Include="assets\highlight\styles\github.css" />
+    <Content Include="assets\highlight\styles\googlecode.css" />
+    <Content Include="assets\highlight\styles\grayscale.css" />
+    <Content Include="assets\highlight\styles\hopscotch.css" />
+    <Content Include="assets\highlight\styles\hybrid.css" />
+    <Content Include="assets\highlight\styles\idea.css" />
+    <Content Include="assets\highlight\styles\ir-black.css" />
+    <Content Include="assets\highlight\styles\kimbie.dark.css" />
+    <Content Include="assets\highlight\styles\kimbie.light.css" />
+    <Content Include="assets\highlight\styles\magula.css" />
+    <Content Include="assets\highlight\styles\mono-blue.css" />
+    <Content Include="assets\highlight\styles\monokai-sublime.css" />
+    <Content Include="assets\highlight\styles\monokai.css" />
+    <Content Include="assets\highlight\styles\obsidian.css" />
+    <Content Include="assets\highlight\styles\paraiso-dark.css" />
+    <Content Include="assets\highlight\styles\paraiso-light.css" />
+    <Content Include="assets\highlight\styles\pojoaque.css" />
+    <Content Include="assets\highlight\styles\pojoaque.jpg" />
+    <Content Include="assets\highlight\styles\railscasts.css" />
+    <Content Include="assets\highlight\styles\rainbow.css" />
+    <Content Include="assets\highlight\styles\school-book.css" />
+    <Content Include="assets\highlight\styles\school-book.png" />
+    <Content Include="assets\highlight\styles\solarized-dark.css" />
+    <Content Include="assets\highlight\styles\solarized-light.css" />
+    <Content Include="assets\highlight\styles\sunburst.css" />
+    <Content Include="assets\highlight\styles\tomorrow-night-blue.css" />
+    <Content Include="assets\highlight\styles\tomorrow-night-bright.css" />
+    <Content Include="assets\highlight\styles\tomorrow-night-eighties.css" />
+    <Content Include="assets\highlight\styles\tomorrow-night.css" />
+    <Content Include="assets\highlight\styles\tomorrow.css" />
+    <Content Include="assets\highlight\styles\vs.css" />
+    <Content Include="assets\highlight\styles\xcode.css" />
+    <Content Include="assets\highlight\styles\zenburn.css" />
+    <Content Include="assets\images\cdoc-icon.png" />
+    <Content Include="assets\images\filetree.gif" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\motor.js" />
+    <Content Include="assets\js\npm.js" />
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
